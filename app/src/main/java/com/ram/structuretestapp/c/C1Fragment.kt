@@ -26,5 +26,6 @@ class C1Fragment : BaseFragment<CFragmentBinding>(R.layout.c_fragment) {
 
     override fun onBackBtn() {
         (activity as CMainActivity).finishAndNoAnim()
+
     }
 }
