@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi_identity"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ram.structuretestapp.a.A1Fragment"
+        android:label="A1Fragment"
+        tools:layout="@layout/a1_fragment">
+
+        <action
+            android:id="@+id/action_homeFragment_to_a2Fragment"
+            app:destination="@id/a2Fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/a2Fragment"
+        android:name="com.ram.structuretestapp.a.A2Fragment"
+        android:label="A2Fragment"
+        tools:layout="@layout/a1_fragment">
+
+        <action
+            android:id="@+id/action_a2Fragment_to_a3Fragment"
+            app:destination="@id/a3Fragment"
+            app:enterAnim="@animator/nav_default_enter_anim"
+            app:exitAnim="@animator/nav_default_exit_anim"
+            app:popEnterAnim="@animator/nav_default_enter_anim"
+            app:popExitAnim="@animator/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/a3Fragment"
+        android:name="com.ram.structuretestapp.a.A3Fragment"
+        android:label="A3Fragment"
+        tools:layout="@layout/a1_fragment">
+
+    </fragment>
+
+</navigation>

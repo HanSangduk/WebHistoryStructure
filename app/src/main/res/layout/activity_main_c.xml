@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/frMainC"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:defaultNavHost="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:navGraph="@navigation/navi_home_c" />
+
+        <FrameLayout
+            android:id="@+id/flHomeBottomContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavi"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="bottom"
+                android:longClickable="false"
+                android:paddingBottom="10dp"
+                app:elevation="-1dp"
+                app:itemBackground="@color/color_light"
+                app:itemTextColor="@drawable/selector_bottom_text_color"
+                app:labelVisibilityMode="labeled"
+                app:menu="@menu/menu_home_bottom" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="56dp"
+                android:background="@color/c_e2e2e2" />
+
+            <ImageView
+                android:id="@+id/ivHomeCreateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="26dp"
+                android:src="@drawable/create_btn" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

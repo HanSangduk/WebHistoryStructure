@@ -1,0 +1,467 @@
+<resources>
+    <string name="app_name">HOOGi</string>
+
+    <!--    <string name="base_url">http://10.190.100.116:8090</string>-->
+    <string name="base_url">https://app.hoogi.com</string>
+    <string name="naver_api_url">https://openapi.naver.com</string>
+    <string name="login">로그인</string>
+    <string name="go_login">로그인 하기</string>
+    <string name="find_pwd_btn_name">비밀번호 변경 이메일 전송</string>
+    <string name="login_forget_email"><u>이메일을 잊으셨나요?</u></string>
+    <string name="login_forget_password">비밀번호를 잊으셨나요?</string>
+    <string name="or">또는</string>
+    <string name="login_terms_of_service">가입하면 당사의 <b>서비스 약관</b>에 동의하고, <b>개인정보 보호정책</b>을(를) 읽어 당사의 데이터 수집, 사용, 공유 방법을 확인했음을 인정하는 것입니다.</string>
+    <string name="email_check_info"><b>%s</b>님의 이메일입니다.</string>
+    <string name="tour">둘러보기</string>
+    <string name="login_register">회원가입</string>
+
+    <string name="send_password_to_email">비밀번호 변경 이메일 전송 완료</string>
+    <string name="find_password_email_check_info"><![CDATA[<font color=\'#000000\'><b>%s</b></font>님이 가입 시 등록한 이메일로<br/>비밀번호 변경 링크를 보내드렸어요.]]></string>
+    <string name="validity">유효 기간</string>
+    <string name="now_register">지금 가입하기</string>
+    <string name="whithin_ten_minute">10분 내외</string>
+
+    <string name="no_account">계정 없음</string>
+    <string name="revive_account">계정 복구</string>
+    <string name="no_account_info_title">방금 입력하신 정보로 가입한 내역이 없어요.</string>
+    <string name="no_account_info_content">가입하고 원하는 상품의 정확한 후기 정보를 마음껏 확인하세요!</string>
+
+    <string name="email_check">이메일 확인</string>
+    <string name="find_pwd">비밀번호 찾기</string>
+    <string name="identity_verification">본인인증</string>
+    <string name="email">이메일</string>
+    <string name="name">이름</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="register">가입하기</string>
+
+    <string name="restrictions_on_use">이용 제한</string>
+
+    <string name="email_auth">이메일 인증</string>
+    <string name="email_auth_send">인증 이메일 전송</string>
+    <string name="retry_send_email">재전송</string>
+
+    <string name="terms_of_service_header">이용 약관</string>
+    <string name="terms_all_agress">약관 전체동의</string>
+    <string name="terms_of_identity">개인정보 수집 및 이용에 대한 동의(필수)</string>
+    <string name="terms_of_service">서비스 이용약관(필수)</string>
+    <string name="terms_of_location">위치정보 이용약관(필수)</string>
+    <string name="terms_of_info_noti">이벤트 등 프로모션 알림 메일 수신(선택)</string>
+    <string name="btn_identity_verification">본인인증 하기</string>
+    <string name="dialog_btn_identity_verification">인증하기</string>
+    <string name="agree">동의</string>
+    <string name="select">선택</string>
+    <string name="restrictions_sorry">죄송합니다.</string>
+    <string name="restrictions_sorry_age">HOOGi 연령 기준에 충족하지\n않는 것으로 보입니다.</string>
+    <string name="restrictions_sorry_thanks">이용해주셔서 감사합니다.</string>
+
+    <string name="password_hint">비밀번호 (password)</string>
+    <string name="email_hint">이메일 (hoogi@Hoogi.com)</string>
+    <string name="find_pwd_email_hint">(hoogi@Hoogi.com)</string>
+    <string name="name_hint">(Name)</string>
+
+    <string name="nickname_hint">(Nickname)</string>
+    <string name="eng_password_hint">(Password)</string>
+
+    <string name="register_header">기본 정보</string>
+    <string name="register_profile_photo">프로필 사진 (선택)</string>
+    <string name="register_email">이메일 (필수)</string>
+    <string name="register_password">비밀번호 (필수)</string>
+    <string name="register_password_description">10~16자 / 영문 대소문자, 숫자, 특수문자 중 2가지 이상 조합</string>
+    <string name="register_nickname">닉네임 (필수)</string>
+    <string name="register_duplicate_nickname">중복된 닉네임입니다.</string>
+    <string name="register_cannot_use_nickname">사용할 수 없는 닉네임입니다.</string>
+    <string name="register_cannot_use_min_length_nickname">최소 글자수를 충족하지 못하였습니다.</string>
+    <string name="register_complete">가입 완료</string>
+    <string name="permission_title">회원님에게 정확한 후기를 제공하기 위해 아래 접근권한을 허용을 부탁드려요.</string>
+    <string name="permission_footer">위 접근권한은 회원님께 정확한 정보를 제공하기 위해 사용해요. 허용에 동의하지 않으실 경우 서비스 이용이 제한될 수 있어요.</string>
+
+    <string name="plz_input_email">이메일을 입력해주세요.</string>
+    <string name="plz_input_password">비밀번호를 입력해주세요.</string>
+
+    <string name="media_all_view">전체보기</string>
+    <string name="media_default_profile">기본프로필</string>
+
+    <string name="home">홈</string>
+    <string name="search">검색</string>
+    <string name="create">후기UP</string>
+    <string name="follow">팔로우</string>
+    <string name="account">계정</string>
+    <string name="profile">프로필</string>
+
+    <string name="hide_behavior">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
+    <string name="hoogi_slogan">세상의 모든 후기를 플레이하다</string>
+    <string name="search_hoogi">후기를 찾아보세요!</string>
+    <string name="today_suggest_hoogi">오늘의 추천 후기</string>
+
+    <string name="toast_category_follow_success">선택하신 카테고리를 팔로우 했어요.</string>
+
+    <string name="default_server_error">네트워크 통신이 원활하지 않습니다.</string>
+    <string name="congratulation_register">회원가입을 축하합니다.</string>
+    <string name="title">제목</string>
+    <string name="close">닫기</string>
+
+    <string name="edit_profile">프로필사진 편집</string>
+    <string name="edit_btn">수정하기</string>
+    <string name="remove_btn">삭제하기</string>
+    <string name="block_btn">차단하기</string>
+    <string name="un_block_btn">차단해제</string>
+
+    <string name="popup_auth_email_send">인증 이메일 전송</string>
+    <string name="popup_auth_email_send_description">10분 내로 이메일 인증을 진행해주세요.</string>
+
+    <string name="user_marketing_agree_recheck_title">마케팅 수신 동의</string>
+    <string name="user_marketing_agree_recheck">마케팅 수신 동의를 철회하면 기존에 제공하던 혜택을 더는 받지 못할 수도 있어요.</string>
+    <string name="user_marketing_agree_recheck_ok">혜택받기</string>
+    <string name="user_marketing_agree_recheck_cencle">안 받기</string>
+
+    <string name="skip">건너뛰기</string>
+    <string name="welcome_hoogi">후기에 오신 것을 환영해요!</string>
+    <string name="choice_curious_category">궁금한 카테고리를 골라보세요.</string>
+    <string name="setting_choice_curious_category">후기가 궁금한 카테고리를 선택해주세요.</string>
+    <string name="choice_max_three">(최대 3개까지 가능)</string>
+    <string name="select_complete">선택 완료</string>
+    <string name="select_complete_choice">선택 완료 (%d/3)</string>
+    <string name="error_max_count_over_cate_select">최대 3개까지 선택 가능합니다.</string>
+    <string name="category">카테고리</string>
+    <string name="search_hint">검색어를 입력해주세요.</string>
+    <string name="what_products_are_you_curious_about">어떤 상품의 후기가 궁금하신가요?</string>
+    <string name="recent_search_keyword">최근 검색한 키워드</string>
+    <string name="remove_all">전체 삭제</string>
+
+    <string name="write_video_thumb_description"><![CDATA[&middot; 전체보기 버튼을 탭하면 썸네일 화면을 확인할 수 있어요.]]></string>
+
+    <string name="what_product">어떤 상품인가요?</string>
+    <string name="product">상품</string>
+    <string name="brand">브랜드</string>
+    <string name="star_hoogi">별점 후기</string>
+    <string name="brand_hint">회원님이 구매한 브랜드</string>
+    <string name="add_hoogi_hint">상품평을 자유롭게 써주세요. (최대 500자)</string>
+    <string name="point_of_purchase">구매시점</string>
+    <string name="add_hoogi">추가후기</string>
+    <string name="registration_hoogi">후가등록하기</string>
+    <string name="btn_registration">등록하기</string>
+    <string name="write_hoogi">후기 작성</string>
+    <string name="modify_hoogi">후기 수정</string>
+    <string name="optional">(선택)</string>
+    <string name="notes_on_registration">등록 유의사항</string>
+    <string name="notes_on_modify">수정 유의사항</string>
+    <string name="when_buy">언제 구매하셨나요?</string>
+
+    <string name="not_found_brand_info">브랜드 정보 없음</string>
+
+    <string name="product_direct_registration">상품 직접등록</string>
+    <string name="product_search">상품명을 검색해주세요!</string>
+    <string name="how_about_registering_product_yourself">상품을 직접 등록해주시는 건 어떠세요?</string>
+    <string name="no_registered_products_yet">아직 등록된 상품이 없어요.</string>
+    <string name="what_product_search">어떤 상품을 찾고 있으신가요?</string>
+    <string name="direct_product_registration">상품 직접 등록하기</string>
+
+    <string name="product_direct_registration_header">상품 직접 등록</string>
+    <string name="product_direct_registration_brand_hint">상품의 브랜드는 무엇인가요?</string>
+    <string name="product_direct_registration_category_hint">상품의 카테고리는 무엇인가요?</string>
+    <string name="registration_complete">등록완료</string>
+
+    <string name="recent_add_hoogi_category">최근 후기가 추가된 카테고리</string>
+    <string name="go_setting">설정하기</string>
+
+    <string name="hoogi_registration">후기 등록하기</string>
+    <string name="hoogi_registration_permission">후기를 등록하려면\n 아래 권한 허용을 진행해주세요.</string>
+    <string name="permission_storage_title">저장공간 권한 필요</string>
+    <string name="permission_storage_content">영상저장 및 불러오기</string>
+    <string name="permission_camera_title">카메라 권한 필요</string>
+    <string name="permission_camera_content">영상촬영</string>
+    <string name="permission_audio_title">마이크 권한 필요</string>
+    <string name="permission_audio_content">영상음성</string>
+    <string name="category_empty_title">입력하신 검색어로 카테고리를 찾을 수 없어요.</string>
+    <string name="category_empty_sub_title">다른 검색어를 입력해주세요.</string>
+    <string name="hoogi_write_success">후기 등록을 완료했어요!</string>
+    <string name="hoogi_write_ing">후기를 등록하고 있어요!</string>
+    <string name="hoogi_write_video_setting">후기 영상 설정</string>
+    <string name="hoogi_write_video_edit">영상 편집</string>
+    <string name="hoogi_write_thumbnail_edit">썸네일 수정</string>
+    <string name="tooltip_hoogi_write_product_search">후기 영상과 관련된 상품을 검색해주세요!</string>
+    <string name="tooltip_hoogi_write_empty_brand">브랜드명을 입력해주시면 더 좋은 후기가 돼요!</string>
+    <string name="tooltip_hoogi_write_temporary_storage">임시저장 문구 수정 필요!</string>
+
+    <string name="thumbnail_save_when_video_play_pause">썸네일을 지정하려면 영상을 탭해서 일시정지 해주세요.</string>
+    <string name="popularity">인기순</string>
+    <string name="latest">최신순</string>
+    <string name="search_result">검색결과</string>
+    <string name="how_about_review_like_this">이런 후기는 어떠세요?</string>
+    <string name="empty_search_result_content_1">선택하신 카테고리에\n아직 등록된 후기가 없어요.</string>
+    <string name="empty_text_search_result_content_1">찾으시는 검색어로\n아직 등록된 후기가 없어요.</string>
+    <string name="empty_search_result_content_2">지금 바로 첫 후기를 등록해주세요.</string>
+    <string name="login_title_1">로그인하면</string>
+    <string name="login_title_2">를</string>
+    <string name="login_title_3">자유롭게 이용할 수 있어요!</string>
+
+    <string name="sso_login_connect_title">로그인 연동</string>
+    <string name="sso_login_connect_content">이미 가입한 이메일 주소로는 로그인 연동만 가능해요.\n\n로그인 연동을 진행할까요?</string>
+    <string name="sso_login_connect_complete">로그인 연동을 완료했어요!</string>
+    <string name="sso_login_connect_btn">연동하기</string>
+
+    <string name="password_error">비밀번호 오류</string>
+    <string name="cur_password">현재 비밀번호</string>
+    <string name="new_password">새로운 비밀번호</string>
+    <string name="new_re_password">새로운 비밀번호 재입력</string>
+    <string name="password_setting">비밀번호 설정</string>
+    <string name="password_re_setting">비밀번호 재설정</string>
+    <string name="password_re_setting_complete">비밀번호 재설정을 완료했습니다.</string>
+    <string name="password_setting_change_complete">비밀번호 변경을 완료했습니다.</string>
+    <string name="re_password_validate_false">비밀번호가 일치하지 않습니다.</string>
+    <string name="re_password_validate_true">비밀번호가 일치합니다.</string>
+    <string name="setting_complete">설정 완료</string>
+
+    <string name="my_profile">내 프로필</string>
+    <string name="welcome_hoogi_login">로그인하고 후기를 등록해보세요.</string>
+    <string name="video">동영상</string>
+    <string name="like">좋아요</string>
+    <string name="rank">랭킹</string>
+    <string name="rank_unit">등</string>
+    <string name="master">마스터</string>
+    <string name="what_show_product_hoogi">어떤 상품의 후기를 보여주고 싶으신가요?</string>
+
+    <string name="my_registed_review">내가 등록한 후기</string>
+    <string name="my_like_review">좋아요 한 후기</string>
+
+    <string name="no_like_review_yet">아직 좋아요 한 후기가 없어요.</string>
+    <string name="search_like_review">마음에 드는 후기를 찾아볼까요?</string>
+    <string name="search_hoogi_btn">후기 찾아보기</string>
+
+    <string name="hoogi_registration_and_master_challenge">후기를 등록하고\n마스터에 도전해보세요!</string>
+
+    <string name="profile_edit">프로필 편집</string>
+    <string name="save">저장</string>
+    <string name="profile_edit_photo">프로필 사진</string>
+    <string name="profile_edit_nickname">닉네임</string>
+    <string name="profile_edit_introduction">내 소개</string>
+    <string name="profile_edit_introduction_hint">최대 50자</string>
+    <string name="challenge_master">마스터에 도전해보세요!</string>
+    <string name="master_description">마스터는 후기 영상, 좋아요 등을 기반으로 선정한 상위 회원을 의미합니다.</string>
+    <string name="nickname_change_description">1일마다 변경 가능 (최근 변경 일시 %s)</string>
+
+    <string name="user_register_review">등록한 후기</string>
+
+    <string name="no_register_hoogi">등록한 후기가 없습니다.</string>
+
+    <string name="setting">설정</string>
+    <string name="account_info">계정 정보</string>
+    <string name="log_out">로그아웃</string>
+    <string name="content_activity">콘텐츠 및 활동</string>
+    <string name="auto_play">자동 재생</string>
+    <string name="interest_category">관심 카테고리</string>
+    <string name="hidden_block">숨김 및 차단</string>
+    <string name="noti_setting">알림 설정</string>
+    <string name="support">지원</string>
+    <string name="customer_center">고객 센터</string>
+    <string name="report_center">신고 센터</string>
+    <string name="information">정보</string>
+    <string name="notice">공지사항</string>
+    <string name="information_agree_status">정보제공 동의 현황</string>
+    <string name="community_rule">커뮤니티 규정</string>
+    <string name="setting_terms_of_service">서비스 이용 약관</string>
+    <string name="private_policy">개인정보 보호 정책</string>
+    <string name="copyright_rule">저작권 정책</string>
+    <string name="open_source_licence">오픈소스 라이선스</string>
+    <string name="app_version_check">앱 버전 및 업데이트</string>
+
+    <string name="login_type">로그인 수단</string>
+    <string name="phone_number">전화번호</string>
+    <string name="password">비밀번호</string>
+    <string name="password_change">변경하기</string>
+    <string name="header_password_change">비밀번호 변경하기</string>
+    <string name="account_delete">계정삭제</string>
+    <string name="header_account_delete">계정 삭제</string>
+    <string name="account_delete_btn">탈퇴하기</string>
+    <string name="logout_is_going_on">로그아웃을 진행하시겠습니까?</string>
+
+    <string name="review_detail_video_auto_play">리뷰 상세 자동재생</string>
+    <string name="review_detail_video_auto_play_description">시청한 영상이 끝나면 다음 영상을 이어서 재생합니다.</string>
+
+    <string name="noti_video_like">영상 좋아요</string>
+    <string name="noti_video_like_description">등록한 리뷰 영상 좋아요에 대한 알림이에요.</string>
+
+    <string name="noti_video_comment">영상 댓글</string>
+    <string name="noti_video_comment_description">등록한 리뷰 영상 댓글에 대한 알림이에요.</string>
+
+    <string name="noti_video_comment_like">댓글 좋아요</string>
+    <string name="noti_video_comment_like_description">작성한 댓글 좋아요에 대한 알림이에요.</string>
+
+    <string name="noti_video_recomment_like">답글</string>
+    <string name="noti_video_recomment_like_description">내 댓글에 작성된 답글에 대한 알림이에요.</string>
+
+    <string name="noti_new_favorite_review">관심사 신규 리뷰 영상</string>
+    <string name="noti_new_favorite_review_description">팔로우한 카테고리 신규 영상에 대한 알림이에요.</string>
+
+    <string name="marketing_agree">마케팅 수신동의 처리</string>
+    <string name="marketing_agree_description">이벤트, 프로모션에 관한 다양한 소식을 알려드려요.</string>
+
+    <string name="dialog_btn_yes">네</string>
+
+    <string name="dormant_account">휴면 계정</string>
+
+    <string name="account_delete_content_1">님이</string>
+    <string name="account_delete_content_2">있어 더 좋은</string>
+    <string name="account_delete_content_3">입니다.</string>
+    <string name="account_delete_content_4">그래도 계정 삭제를 원하시는 경우, 이유를 알려주세요.\n다음에는 더 나은 모습으로 찾아뵜겠습니다.</string>
+    <string name="account_delete_content_hint">기타 의견을 자유롭게 작성해주세요. (최대 500자)</string>
+
+    <string name="account_delete_info_title">계정 삭제에 따라 아래와 같이 진행됩니다.</string>
+    <string name="account_delete_agree_email_auth">동의 후 이메일 인증</string>
+    <string name="account_delete_info_cotent_1">해당 계정으로 후기에 로그인할 수 없습니다.</string>
+    <string name="account_delete_info_cotent_2">해당 계정으로 업로드한 모든 콘텐츠에 대해서 모든 권환을 상실합니다.</string>
+    <string name="account_delete_info_cotent_3">사용자 계정이 없고 30일간 비활성화됩니다. 비활성화 동안 사용자 계정은 비공개로 처리되며 복구가 가능하나 30일이후에는 영구적으로 삭제 처리가 진행되어 복구가 불가능합니다.</string>
+    <string name="account_delete_info_content_go">이대로 진행하시겠습니까?</string>
+
+    <string name="account_delete_success_title">지금까지 사용해주셔서 감사합니다.</string>
+    <string name="account_delete_success_content">영구 삭제 일시\n%s</string>
+
+    <string name="email_auth_send_description"><![CDATA[<font color=\'#666666\'>(이메일 전송 완료, </font><font color=\'#000000\'><b>10분</b></font><font color=\'#666666\'> 내로 인증해주세요.)</font>]]></string>
+
+    <string name="hide_hoogi_list_title">숨긴 후기 리스트</string>
+    <string name="hide_hoogi_list_content">숨긴 후기 리스트를 확인하고 숨김을 해제할 수 있습니다.</string>
+    <string name="block_user_list_title">차단한 회원 리스트</string>
+    <string name="block_user_list_content">차단한 회원 리스트를 확인하고 차단을 해제할 수 있습니다.</string>
+
+    <string name="block_user_empty">차단한 회원이 없어요.</string>
+    <string name="hidden_hoogi_empty">아직 숨긴 후기가 없어요.</string>
+    <string name="block_user_delete">차단 해제</string>
+    <string name="block_user_delete_dialog_content">%s님에 대한 차단을 해제할까요?</string>
+    <string name="hidden_review_delete">숨김 해제</string>
+    <string name="hidden_review_dialog_content">후기 영상 숨김을 해제할까요?</string>
+    <string name="welcome_customer_center">고객센터에 오신 것을 환영합니다.\n어떤 부분이 궁금하신가요?</string>
+
+    <string name="faq">FAQ</string>
+    <string name="inquiry">1:1 문의</string>
+
+    <string name="send_feedback">의견 보내기</string>
+    <string name="write_error_info">상품과 관련 없는 내용이나 사진/동영상, 동일 문자의 반복 등 부적합한 내용의 리뷰 작성은 통보없이 삭제 및 적립혜택이 회수됩니다. \n\n작성 완료된 리뷰는 7일 이내 수정이 가능하며 삭제하실 수 없습니다. 작성된 내용 검토 후, - 광고나 비방 등 부적절한 내용이 있을 경우 - 상품과 무관하거나 부적절한 사진을 첨부한 경우 노출 제한 처리와 차후 리뷰 작성에 제한이 생길 수 있습니다.</string>
+    <string name="modify_error_info">상품과 무관하거나 커뮤니티 규정에 어긋나는 후기인 경우 HOOGi 약관 및 정책에 따라 통보 없이 콘텐츠 삭제 등의 조치가 이루어질 수 있습니다.\n\n자세한 내용은 약관 및 정책을 확인해주시기 바랍니다.</string>
+
+    <string name="customer_inquiry_feedback_hint">후기에게 물어보고 싶어요! (최소 30자, 최대 200자)</string>
+    <string name="customer_inquiry_register">문의등록하기</string>
+
+    <string name="inquiry_reply_to_email">모든 문의는 이메일로 답해드려요.</string>
+    <string name="inquiry_attachments">첨부파일 (선택)</string>
+    <string name="inquiry_attachments_btn">첨부파일</string>
+    <string name="customer_inquiry_attachment_count">(0/1)</string>
+    <string name="inquiry_dialog_title">문의 접수 완료</string>
+    <string name="inquiry_dialog_content">운영자가 문의 내용을 확인하고\n이메일로 답변드릴게요.</string>
+
+    <string name="report_center_content">후기(Hoogi)는 건강하고 안전한 콘텐츠와 공간을 제공하는 것을 최우선으로 고려합니다. 신고센터는 위와 같은 지향점을 유저 여러분과 함께 만들어 가기 위한 곳입니다.\n\n신고센터를 통해서 신고와 관련된 모든 내역을 확인할 수 있습니다.</string>
+
+    <string name="receive_report">받은 신고</string>
+    <string name="report_history">신고 내역</string>
+    <string name="report_status_info">내 상태 : </string>
+    <string name="report_content_spend_status_info">콘텐츠 소비 제한 : </string>
+    <string name="report_content_production_status_info">콘텐츠 생산 제한 : </string>
+    <string name="report_empty">내 활동에 대한 신고 내역이 없습니다.</string>
+
+    <string name="report_history_date">신고 일자 : %s</string>
+    <string name="report_receive_date">처리 일자 : %s</string>
+    <string name="report_content">위반 내역 : %s</string>
+    <string name="report_content_count">등 %s건</string>
+    <string name="report_title">신고 영역 : %s</string>
+    <string name="report_result_check">결과 확인</string>
+    <string name="report_send_result_ing">처리중</string>
+    <string name="report_receive_appeal">이의 신청 중</string>
+    <string name="user_status_ok">정상</string>
+    <string name="marketing_push_agree_date">동의 일시 : %s</string>
+
+    <string name="setting_terms_personal_info">개인 정보 제공 동의</string>
+    <string name="setting_terms_info_date">동의일시 : %s</string>
+    <string name="setting_terms_service_info">서비스 이용 약관 동의</string>
+    <string name="setting_terms_location_info">위치 정보 제공 동의</string>
+
+    <string name="notification">알림</string>
+    <string name="notification_empty_title">후기를 등록하면 알림이 와요!</string>
+    <string name="notification_empty_content">상품 후기를 찍으러 가볼까요?</string>
+
+    <string name="input_category_follow">궁금한 카테고리를 입력해주세요.</string>
+    <string name="insert_category_follow">로그인하고 관심사를 등록해보세요.</string>
+    <string name="find_category_follow">관심사 찾기</string>
+
+    <string name="more">더보기</string>
+    <string name="category_follow">관심사</string>
+    <string name="category_follow_List">관심사 리스트</string>
+    <string name="category_follow_List_edit">리스트 편집</string>
+    <string name="category_follow_List_edit_hint">리스트에서 찾기</string>
+    <string name="complete">완료</string>
+    <string name="category_follow_list_search_empty_toast_msg">입력한 검색어를 리스트에서 찾을 수 없어요.</string>
+    <string name="default_firebase_notification_channel_id">hoogi</string>
+    <string name="comment_hint">댓글을 입력해주세요. (최대 100자)</string>
+    <string name="add_text_modify_comment">, 수정됨</string>
+    <string name="comment_visible_reply_count">답글 보기 (%s)</string>
+    <string name="comment_hide_reply_count">답글 숨기기 (%s)</string>
+    <string name="comment_empty">댓글 없음</string>
+    <string name="detail_comment_count">댓글 %s개</string>
+    <string name="comment_write_reply">답글 달기</string>
+
+    <string name="dialog_btn_report">신고하기</string>
+    <string name="dialog_btn_hide">숨기기</string>
+    <string name="dialog_btn_modify">수정하기</string>
+    <string name="dialog_btn_remove">삭제하기</string>
+    <string name="hoogi_video">후기 영상</string>
+    <string name="my_hoogi_video">나의 후기 영상</string>
+
+    <string name="btn_report_complete">신고 완료</string>
+
+    <string name="toast_msg_review_hide_success">영상 숨김을 완료했습니다.</string>
+    <string name="toast_msg_review_hide_fail">영상 숨김에 실패했습니다.</string>
+
+    <string name="toast_msg_review_comment_modify_success">댓글 수정을 완료했습니다.</string>
+    <string name="toast_msg_review_comment_modify_fail">댓글 수정에 실패했습니다. 다시 시도해주세요.</string>
+    <string name="toast_msg_review_comment_delete_success">댓글 삭제를 완료했습니다.</string>
+    <string name="toast_msg_review_comment_delete_fail">댓글 삭제에 실패했습니다.</string>
+
+    <string name="toast_msg_review_reply_modify_success">답글 수정을 완료했습니다.</string>
+    <string name="toast_msg_review_reply_modify_fail">답글 수정에 실패했습니다. 다시 시도해주세요.</string>
+    <string name="toast_msg_review_reply_delete_success">답글 삭제를 완료했습니다.</string>
+    <string name="toast_msg_review_reply_delete_fail">답글 삭제에 실패했습니다.</string>
+
+    <string name="detail_report_reason">이 영상을 신고하는 이유를 선택해주세요.</string>
+    <string name="detail_report_evidence">정책 근거: 커뮤니티란 여러 관점 및 생각이 공유되는 환경이기에 여러 말이 공유되는 과정에서 발생할 수 있는 여러 형태의 폭력적이거나 혐오스러운 내용을 담은 콘텐츠를 지양합니다. 해당 콘텐츠로 규정될 경우 콘텐츠를 게시한 개인 혹은 단체에게 사전고지 없이 바로 삭제조치가 이루어질 수 있습니다.\n\n유저는 본 콘텐츠가 서비스를 이용하는 다른 유저에게 유해한 영향을 미칠 수 있으며 위의 근거에 입각하여 신고하는 바임을 알려드립니다.</string>
+    <string name="detail_report_content_hint">최소 30자에서 최대 200자</string>
+    <string name="detail_report_write_complete">신고가 완료되었습니다.</string>
+    <string name="dialog_user_block_content">차단한 회원님의 프로필과 후기는 노출되지 않으며 차단 사실은 알 수 없어요.\n\n%s님을 차단할까요?</string>
+    <string name="dialog_user_un_block_content">%s님에 대한 차단을 해제할까요?</string>
+    <string name="dialog_user_block_title">회원 차단</string>
+    <string name="dialog_user_block_btn">차단</string>
+    <string name="not_modify_buy_date">구매시점을 수정할 수 없습니다.</string>
+    <string name="detail_report_reason_description">콘텐츠가 위반한 사항을 알려주세요.</string>
+    <string name="dialog_review_delete_description">영상을 삭제할 경우,\n영구적으로 복구할 수 없으며\n관련된 모든 정보가 삭제됩니다.\n\n정말 삭제하시겠습니까?</string>
+    <string name="dialog_identity_description">본인인증을 진행해야만\n댓글을 등록할 수 있어요.\n\n인증을 진행할까요?</string>
+    <string name="toast_review_delete_success">영상 삭제를 완료했습니다.</string>
+    <string name="toast_review_delete_fail">영상 삭제에 실패했습니다.</string>
+    <string name="toast_review_modify_success">영상 수정을 완료했습니다.</string>
+    <string name="toast_review_modify_fail">영상 수정에 실패했습니다.</string>
+    <string name="delete_review">영상 삭제</string>
+    <string name="delete">삭제</string>
+    <string name="search_chips_header_hoogi_recommend">HOOGi 추천</string>
+    <string name="ask_write_selected_product">선택한 상품</string>
+    <string name="ask_write_selected_product_question">궁금한 점</string>
+    <string name="ask_write_question_1">상품의 외형/생김새/재질</string>
+    <string name="ask_write_question_2">상품의 기본 기능</string>
+    <string name="ask_write_question_3">상품의 특징</string>
+    <string name="ask_write_question_4">상품의 가격/할인 정보</string>
+    <string name="ask_write_question_5">기타</string>
+    <string name="add_ask_write_hint">궁금한 점을 입력해주세요. (최대 50자)</string>
+    <string name="ask_write_description"><![CDATA[&middot; 작성하신 내용은 커뮤니티 규정에 따라 삭제 혹은 수정 조치가 될 수 있습니다.]]></string>
+    <string name="contact_us">문의하기</string>
+    <string name="contact_us_hoogi">HOOGi에게 문의하기</string>
+    <string name="bottom_sheet_ask_title">원하는 후기를 못 찾으셨나요?</string>
+    <string name="bottom_sheet_ask_content_01">궁금한 상품</string>
+    <string name="bottom_sheet_ask_content_02">을 HOOGi가 알려드릴께요.</string>
+
+    <!--FIXME ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ SSO ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+    <string name="facebook_application_id" translatable="false">312322377161409</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb312322377161409</string>
+    <string name="sso_kakao_key" translatable="false">86b69e4892469c16cc881785457cc53b</string>
+    <string name="sso_kakao_id" translatable="false">588302</string>
+    <string name="sso_naver_client_id" translatable="false">MFuIzYpcOYrZo4d0LcsQ</string>
+    <string name="sso_naver_client_secret" translatable="false">rWGCTl2CQp</string>
+    <string name="sso_naver_client_name" translatable="false">HOOGi</string>
+    <!--FIXME ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ END SSO ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ-->
+
+</resources>
